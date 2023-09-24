@@ -226,7 +226,7 @@ header{
 }
 
 .my-intro {
-    width: 1350px;
+    width: 1280px;
     height: 610px;
     background-image: linear-gradient(to top right, #7986cb, #ec4646);
     text-align: start;
@@ -401,12 +401,12 @@ header{
 }
 @media screen and (max-width: 400px){
     .my-intro{
-        width: 900px;
+        width: 360px;
         
         
     }
     header{
-        width: 1000px;
+        width: 390px;
     }
     .texts{
         margin-left: 88px;
