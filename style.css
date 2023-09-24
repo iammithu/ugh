@@ -25,20 +25,16 @@
 
 body{
    background: var(--background);
-
+    width: 100%;
    background-repeat: no-repeat;
 }
 
 header{
     height: 690px;
     border: 1px ridge black;
-    width: 1340px;
+    width: 100%;
     margin: 0px;
-
     top: -5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     animation: background-change 90s ease-in-out;
     background: transparent;
@@ -226,7 +222,7 @@ header{
 }
 
 .my-intro {
-    width: 1280px;
+    width: 90%;
     height: 610px;
     background-image: linear-gradient(to top right, #7986cb, #ec4646);
     text-align: start;
@@ -238,6 +234,8 @@ header{
     color: var(--lightmode);
     font-size: 16px;
     box-shadow: 2px 1px 1px #e22f2f;
+    margin-left: 5%;
+    margin-top: 2%;
 }
 
 .texts{
