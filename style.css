@@ -98,7 +98,8 @@ header{
 }
 
 #theme{
-    margin-left: auto;
+    position: absolute;
+    left: 90%;
 }
 
 .container{
